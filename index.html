@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Hedelmäpeli</title>
+    </head>
+    <body>
+        <div class="otsikko">
+            <h1>HEDELMÄPELI</h1>
+        </div>
+        <div class="row">
+            <div class="vasen">
+                <div class="yla">
+                    <div class="rahaaPanos">
+                        <p>Rahaa: <span id="rahaa">100</span>€</p>
+                        <p>Panos: <span id="panos">1</span>€</p>
+                    </div>
+                    <div class="buttonit">
+                        <button id="panos1">Panos<br />1€</button>
+                        <button id="panos2">Panos<br />2€</button>
+                        <button id="panos3">Panos<br />3€</button>
+                    </div>
+                </div>
+                <div class="ala">
+                    <img id="luukku1" src="omena.png" alt="luukku1" />
+                    <img id="luukku2" src="paaryna.png" alt="luukku1" />
+                    <img id="luukku3" src="meloni.png" alt="luukku1" />
+                    <img id="luukku4" src="seitseman.png" alt="luukku1" /><br />
+                    <button id="lukitse1">Lukitse</button>
+                    <button id="lukitse2">Lukitse</button>
+                    <button id="lukitse3">Lukitse</button>
+                    <button id="lukitse4">Lukitse</button>
+                </div>
+            </div>
+            <div class="oikea">
+                <p>Voitot:</p>
+                <p class="voitot">neljä x 7 => voitto = 10 x panos</p>
+                <p class="voitot">kome x 7 => voitto = 5 x panos</p>
+                <p class="voitot">neljä x omena => voitto = 6 x panos</p>
+                <p class="voitot">neljä x meloni => voitto = 5 x panos</p>
+                <p class="voitot">neljä x päärynä => voitto = 4 x panos</p>
+                <p class="voitot">neljä x kirsikka => voitto = 3 x panos</p>
+                <button id="pelaa">Pelaa</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
