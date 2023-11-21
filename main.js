@@ -158,46 +158,82 @@ function pelaaPelia() {
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 3 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 3 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 1 && randomLuku2 == 1 && randomLuku3 == 1 && randomLuku4 == 1) {
             rahaa += panos * 4;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 4 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 4 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 2 && randomLuku2 == 2 && randomLuku3 == 2 && randomLuku4 == 2) {
             rahaa += panos * 5;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 5 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 5 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 3 && randomLuku2 == 3 && randomLuku3 == 3 && randomLuku4 == 3) {
             rahaa += panos * 6;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 6 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 6 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 4 && randomLuku2 == 4 && randomLuku3 == 4 && randomLuku4 == 4) {
             rahaa += panos * 10;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 10 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 10 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 != 4 && randomLuku2 == 4 && randomLuku3 == 4 && randomLuku4 == 4) {
             rahaa += panos * 5;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 5 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 5 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 4 && randomLuku2 != 4 && randomLuku3 == 4 && randomLuku4 == 4) {
             rahaa += panos * 5;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 5 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 5 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 4 && randomLuku2 == 4 && randomLuku3 != 4 && randomLuku4 == 4) {
             rahaa += panos * 5;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 5 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 5 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (randomLuku1 == 4 && randomLuku2 == 4 && randomLuku3 == 4 && randomLuku4 != 4) {
             rahaa += panos * 5;
             document.getElementById('rahaa').innerText = rahaa;
             voittoTxt.innerText = 'Voitit ' + panos * 5 + '€';
             voittoTxtMobile.innerText = 'Voitit ' + panos * 5 + '€';
+            lukitse1.disabled = true;
+            lukitse2.disabled = true;
+            lukitse3.disabled = true;
+            lukitse4.disabled = true;
         } else if (rahaa == 0) {
             voittoTxt.innerText = 'Rahat loppuivat!';
             voittoTxtMobile.innerText = 'Rahat loppuivat!';
@@ -220,7 +256,6 @@ function pelaaPelia() {
             voittoTxtMobile.innerText = 'Ei voittoa!';
             poistaLukitus();
         }
-        console.log(lukittu1, lukittu2, lukittu3, lukittu4);
         if (lukittu1 || lukittu2 || lukittu3 || lukittu4) {
             lukitse1.disabled = true;
             lukitse2.disabled = true;
