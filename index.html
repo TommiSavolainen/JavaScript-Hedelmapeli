@@ -6,10 +6,7 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet" />
         <title>Hedelmäpeli</title>
     </head>
     <body>
@@ -41,14 +38,28 @@
                 </div>
             </div>
             <div class="oikea">
-                <p>Voitot:</p>
+                <p class="voitot">Voitot:</p>
                 <p class="voitot">neljä x 7 => voitto = 10 x panos</p>
                 <p class="voitot">kome x 7 => voitto = 5 x panos</p>
                 <p class="voitot">neljä x omena => voitto = 6 x panos</p>
                 <p class="voitot">neljä x meloni => voitto = 5 x panos</p>
                 <p class="voitot">neljä x päärynä => voitto = 4 x panos</p>
                 <p class="voitot">neljä x kirsikka => voitto = 3 x panos</p>
-                <button id="pelaa">Pelaa</button>
+                <p id="voittoTxt"></p>
+                <button id="pelaa">Pelaa</button><br />
+                <button id="uusiPeli">Uusi peli</button>
+            </div>
+            <div class="oikeaMobile">
+                <button id="pelaaMobile">Pelaa</button><br />
+                <button id="uusiPeliMobile">Uusi peli</button>
+                <p id="voittoTxtMobile"></p>
+                <p class="voitot">Voitot:</p>
+                <p class="voitot">neljä x 7 => voitto = 10 x panos</p>
+                <p class="voitot">kome x 7 => voitto = 5 x panos</p>
+                <p class="voitot">neljä x omena => voitto = 6 x panos</p>
+                <p class="voitot">neljä x meloni => voitto = 5 x panos</p>
+                <p class="voitot">neljä x päärynä => voitto = 4 x panos</p>
+                <p class="voitot">neljä x kirsikka => voitto = 3 x panos</p>
             </div>
         </div>
         <script src="main.js"></script>

@@ -85,11 +85,35 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: 150px;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 2em;
   }
-
-  
+  #pelaaMobile{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  #uusiPeliMobile{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 2em;
+    display: none;
+  }
+  .oikeaMobile{
+    display: none;
+  }
+  #voittoTxt{
+    padding-top: 20px;
+  }
+  #uusiPeli{
+    display: none;
+    font-size: 2em;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   
   /* Clear floats after the columns */
   .row::after {
@@ -102,5 +126,16 @@
   @media screen and (max-width: 860px) {
     .vasen, .oikea {
       width: 100%;
+    }
+    .oikea{
+      display: none;
+    }
+    .oikeaMobile{
+      display: block;
+      text-align: center;
+    }
+    #pelaa{
+      margin-top: 20px;
+      margin-bottom: 50px;
     }
   }
